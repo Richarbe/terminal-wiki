@@ -1,0 +1,5 @@
+1. The options variable contains a array of 4 strings, "memory", "assembly", "compiler", and "custom"
+2. It attempts to return options[-1], which doesn't exist. it should return choice.
+3. Sampledata contains the integer 59
+4. The Array type is int [3]
+5. Indexing into the array with such a high number gives you a number off of the array. you'll get some random bit of memory.
